@@ -1,0 +1,16 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name> Hello Paul Tag Lib Demo</short-name>
+    <uri>http://pnorby.com/tags</uri>
+    <tag>
+        <name>Hello</name>
+        <tag-class>com.pnorby.customtags.HelloWorldTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>Greeting</name>
+        <tag-class>com.pnorby.customtags.GreetingTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+</taglib>
